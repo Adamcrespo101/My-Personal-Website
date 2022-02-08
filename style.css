@@ -1,21 +1,48 @@
 body {
-    background: blue;
+    background: gray;
     
 }
 
 h1 {
     font-size: 90px;
-    font-family: cursive;
+    font-family: monospace;
     text-align: center;
-    color: pink;
+    color: white;
     border-style: double;
-    border-color: pink;
+    border-color: cyan;
     border-width: 10px;
 }
 
 p#introduction {
     font-size: larger;
-    font-family: cursive;
-    color: pink;
-    width: 800px;
+    font-family: monospace;
+    color: white;
+    width: 400px;
+    float: left;
+}
+
+#Brockhampton {
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin: auto;
+    border-style: double;
+    border-color: white;
+    border-width: 7px;
+}
+
+#brockhamptonDescription {
+    font-family: monospace;
+    font-size: medium;
+    color: white;
+    float: right;
+    width: 400px;
+}
+
+#musicTable {
+    border-style: groove;
+    border-color: cyan;
+    font-family: monospace;
+    color: white;
+    display: table-caption;
 }
