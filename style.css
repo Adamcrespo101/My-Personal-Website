@@ -8,5 +8,14 @@ h1 {
     font-family: cursive;
     text-align: center;
     color: pink;
-    
+    border-style: double;
+    border-color: pink;
+    border-width: 10px;
+}
+
+p#introduction {
+    font-size: larger;
+    font-family: cursive;
+    color: pink;
+    width: 800px;
 }
