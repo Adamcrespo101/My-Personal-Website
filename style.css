@@ -1,48 +1,89 @@
-body {
-    background: gray;
+nav{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
     
+    
+
+#logo{
+    width: 900px;
+    height: 1000px;
+    margin: 0px auto;
+    padding: 200px 100px 200px 550px;
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 60%;
 }
 
-h1 {
-    font-size: 90px;
-    font-family: monospace;
+
+.navlist{
+    padding: 0px 230px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#bigtaco {
+    width: 100%;
+
+}
+
+h1{
     text-align: center;
-    color: white;
-    border-style: double;
-    border-color: cyan;
-    border-width: 10px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p#introduction {
-    font-size: larger;
-    font-family: monospace;
-    color: white;
-    width: 400px;
+#aboutus{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#introduction{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#friendseating{
+    height: 408px;
+}
+
+#menudesc {
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tacomenu {
+    float: left;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+
+#facts{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    width: 600px;
+    margin: 0px auto;
+}
+
+#contact {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px auto;
+    display: inline-block;
+    width: 800px;
+}
+
+.bottom{
+    height: 400px;
+    width: 600px;
     float: left;
 }
 
-#Brockhampton {
-    height: 200px;
-    width: 400px;
-    float: right;
-    margin: auto;
-    border-style: double;
-    border-color: white;
-    border-width: 7px;
-}
-
-#brockhamptonDescription {
-    font-family: monospace;
-    font-size: medium;
-    color: white;
-    float: right;
-    width: 400px;
-}
-
-#musicTable {
-    border-style: groove;
-    border-color: cyan;
-    font-family: monospace;
-    color: white;
-    display: table-caption;
-}
